@@ -10,6 +10,7 @@ namespace F2PTelemetryModel
         public List<Bank> banks { get; set; }
         public List<ManaStorage> manaStorages { get; set; }
         public List<ManaWell> manaWell { get; set; }
+        public Carpenter carpenter { get; set; }
 
         //Offensive Troop Count
         public int soldierCount { get; set; }

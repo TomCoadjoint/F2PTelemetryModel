@@ -1,0 +1,1563 @@
+[
+	{
+		"name": "Out For Justice",
+		"reward": {
+			"gold": 3600,
+			"mana": 3600,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 5
+			}			
+		}
+	},
+	{
+		"name": "Focus, Focus, Focus!",
+		"reward": {
+			"gold": 2500,
+			"mana": 2500,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 12
+			}			
+		},
+		"unlocks": [
+			"Archer Tower"
+		]
+	},
+	{
+		"name": "Noisy Neighbours",
+		"reward": {
+			"gold": 3000,
+			"mana": 3000,
+			"honor": 35
+		},
+		"required": {
+			"honor": 30
+		},
+		"cost": {
+			"resources": {
+				"gold": 20
+			},
+			"troops": {
+				"samurai": 12
+			}			
+		},
+		"unlocks": [
+			"Archer Tower"
+		]
+	},
+	{
+		"name": "One At A Time",
+		"reward": {
+			"gold": 2500,
+			"mana": 2500,
+
+		},
+		"cost": {
+			"troops": {
+				"samurai": 20
+			}			
+		}
+	},
+	{
+		"name": "Broken Arrow",
+		"reward": {
+			"gold": 3600,
+			"mana": 3600,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 11
+			}			
+		}
+	},
+	{
+		"name": "Troubled Waters",
+		"cost": {
+			"resources": {
+				"gold": 3000
+			}			
+		}
+	},
+	{
+		"name": "Ninja Stronghold",
+		"reward": {
+			"gold": 4600,
+			"mana": 2300,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 20
+			}			
+		},
+		"unlocks": [
+			"Ninja"
+		]
+	},
+	{
+		"name": "To Catch A Thief",
+		"reward": {
+			"gold": 4000,
+			"mana": 2667,
+			"diamonds": 100
+		},
+		"cost": {
+			"troops": {
+				"samurai": 10,
+				"ninja": 10
+			}			
+		}
+	},
+	{
+		"name": "Plague Of Locusts",
+		"reward": {
+			"gold": 3500,
+			"mana": 3500,
+		},
+		"cost": {
+			"troops": {
+				"ninja": 20
+			}			
+		}
+	},
+	{
+		"name": "Cannon Chaos",
+		"reward": {
+			"gold": 2000,
+			"mana": 3250,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 20
+			}			
+		},
+		"unlocks": [
+			"Cannon"
+		]
+	},
+	{
+		"name": "Way Of The Samurai",
+		"reward": {
+			"gold": 4500,
+			"mana": 2000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 15,
+				"ninja": 5
+			}			
+		}
+	},
+	{
+		"name": "Not-So-Great Wall",
+		"reward": {
+			"gold": 5500,
+			"mana": 5500,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 30
+			}			
+		}
+	},
+	{
+		"name": "Higher Ground",
+		"cost": {
+			"resources": {
+				"gold": 7500
+			}			
+		}
+	},
+	{
+		"name": "One Smoking Barrel",
+		"reward": {
+			"gold": 9000,
+			"mana": 9000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 30
+			}			
+		},
+		"unlocks": [
+			"ram"
+		]
+	},
+	{
+		"name": "Double Whammy",
+		"reward": {
+			"gold": 11000,
+			"mana": 11000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 15,
+				"ninja": 5,
+				"ram": 2
+			}			
+		}
+	},
+	{
+		"name": "The Best Defense",
+		"reward": {
+			"gold": 12000,
+			"mana": 12000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 20,
+				"ram": 1
+			}			
+		},
+		"unlocks": [
+			"freeze trap"
+		]
+	},
+	{
+		"name": "Cold Snap!",
+		"reward": {
+			"gold": 13000,
+			"mana": 13000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 15,
+				"ninja": 5,
+				"ram": 4
+			}			
+		}
+	},
+	{
+		"name": "Far From Home",
+		"cost": {
+			"resources": {
+				"honor": 200
+			}		
+		}
+	},
+	{
+		"name": "Frozen Secret",
+		"reward": {
+			"gold": 14000,
+			"mana": 3500,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 35,
+				"ram": 1
+			}			
+		},
+		"unlocks": [
+			"freeze tower"
+		]
+	},
+	{
+		"name": "Production Center",
+		"reward": {
+			"gold": 25000,
+			"mana": 4100,
+			"diamonds": 100
+		},
+		"cost": {
+			"troops": {
+				"samurai": 20
+			}			
+		}
+	},
+	{
+		"name": "Too Many Distractions",
+		"reward": {
+			"gold": 15000,
+			"mana": 15000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 30,
+				"ninja": 10
+			}			
+		}
+	},
+	{
+		"name": "Backyard Support",
+		"reward": {
+			"gold": 15000,
+			"mana": 15000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 38,
+				"ninja": 2,
+				"ram": 2
+			}			
+		}
+	},
+	{
+		"name": "Free The Commmanders",
+		"reward": {
+			"gold": 16000,
+			"mana": 16000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 36,
+				"ram": 1
+			}			
+		},
+		"unlocks": [
+			"commander"
+		]
+	},
+	{
+		"name": "Taking Command",
+		"reward": {
+			"gold": 17000,
+			"mana": 17000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 30,
+				"ninja": 10,
+				"ram": 2
+			}			
+		}
+	},
+	{
+		"name": "Triple Threat",
+		"reward": {
+			"gold": 18000,
+			"mana": 18000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 20,
+				"ram": 2
+			}			
+		},
+		"unlocks": [
+			"blacksmith"
+		]
+	},
+	{
+		"name": "Into The Woods",
+		"reward": {
+			"gold": 19000,
+			"mana": 19000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 32,
+				"ninjas": 8,
+				"ram": 1
+			}			
+		}
+	},
+	{
+		"name": "Hide And Seek",
+		"reward": {
+			"gold": 20000,
+			"mana": 20000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 20,
+				"ram": 2
+			}			
+		}
+	},
+	{
+		"name": "Forest Ambush",
+		"reward": {
+			"gold": 21000,
+			"mana": 21000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 40
+			}			
+		}
+	},
+	{
+		"name": "Tree Of Knowledge",
+		"reward": {
+			"gold": 22000,
+			"mana": 22000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": 40
+			}			
+		},
+		"unlocks": [
+			"archer"
+		]
+	},
+	{
+		"name": "Over The Top",
+		"reward": {
+			"gold": 19000,
+			"mana": 19000,
+		},
+		"cost": {
+			"troops": {
+				"archer": 30,
+				"samurai": 20
+			}			
+		}
+	},
+	{
+		"name": "Fix The Boats",
+		"cost": {
+			"resources": {
+				"gold": 400000
+			}			
+		}
+	},
+	{
+		"name": "Z Day",
+		"reward": {
+			"gold": 75000,
+			"mana": 75000,
+		},
+		"cost": {
+			"troops": {
+				"archer": {
+					"level": 1,
+					"quantity": 15	
+				},
+				"samurai": {
+					"level": 2,
+					"quantity": 55 
+				}
+			}			
+		}
+	},
+	{
+		"name": "Island Fortress",
+		"reward": {
+			"gold": 75000,
+			"mana": 75000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 35 
+				}
+			}			
+		}
+	},
+	{
+		"name": "The Black Spot",
+		"reward": {
+			"gold": 75000,
+			"mana": 75000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 1,
+					"quantity": 25 
+				},
+				"archer": {
+					"level": 1,
+					"quantity": 60 
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 2 
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 2 
+				},
+			}			
+		}
+	},
+	{
+		"name": "Stormy Seas",
+		"cost": {
+			"resources": {
+				"honor": 300
+			}			
+		}
+	},
+	{
+		"name": "Eye Of The Storm",
+		"reward": {
+			"gold": 75000,
+			"mana": 75000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 1,
+					"quantity": 105 
+				},
+				"archer": {
+					"level": 1,
+					"quantity": 0 
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 2 
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		},
+		"unlocks": [
+			"lightning tower"
+		]
+	},
+	{
+		"name": "Pirate Stronghold",
+		"reward": {
+			"gold": 75000,
+			"mana": 75000,
+			"diamonds": 100
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 1,
+					"quantity": 70 
+				},
+				"archer": {
+					"level": 1,
+					"quantity": 45
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "Scroll Tower",
+		"reward": {
+			"gold": 75000,
+			"mana": 75000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 1,
+					"quantity": 70 
+				},
+				"archer": {
+					"level": 1,
+					"quantity": 33
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		},
+		"unlocks": [
+			"scroll statue"
+		]
+	},
+	{
+		"name": "Restoration",
+		"reward": {
+			"gold": 75000,
+			"mana": 75000,
+		},
+		"cost": {
+			"troops": {
+				"resources": {
+					"mana": 400000
+				}
+
+			}			
+		},
+		"unlocks": [
+			"ancient temple"
+		]
+	},
+	{
+		"name": "Silence The Drums",
+		"reward": {
+			"gold": 125000,
+			"mana": 125000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 1,
+					"quantity": 115 
+				},
+				"archer": {
+					"level": 1,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "A Snowball's Chance",
+		"reward": {
+			"gold": 15000,
+			"mana": 15000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 40 
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 40
+				},
+				"ram": {
+					"level": 1 ,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "Heavy Defenses",
+		"reward": {
+			"gold": 125000,
+			"mana": 125000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 50 
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 45
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 23
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 2
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "The Winding Path",
+		"reward": {
+			"gold": 125000,
+			"mana": 125000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 13 
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 85
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 11
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "Bang The Drums",
+		"reward": {
+			"gold": 125000,
+			"mana": 125000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 52 
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 83
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		},
+		"unlocks": [
+			"drum gun"
+		]
+	},
+	{
+		"name": "Altered Beast",
+		"reward": {
+			"gold": 125000,
+			"mana": 125000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 45
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 90
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "Caged Heat",
+		"reward": {
+			"gold": 125000,
+			"mana": 125000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 33
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 92
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 1
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "Knock Knock",
+		"reward": {
+			"gold": 125000,
+			"mana": 125000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 35
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 72
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "Calm The Volcano",
+		"reward": {
+			"gold": 125000,
+			"mana": 125000,
+		},
+		"cost": {
+			"resources": {
+				"mana": 1850000
+			}			
+		}
+	},
+	{
+		"name": "Prison Riot",
+		"reward": {
+			"gold": 150000,
+			"mana": 150000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 0
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 135
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		},
+		"unlocks": [
+			"oni troll"
+		]
+	},
+	{
+		"name": "Statuesque",
+		"reward": {
+			"gold": 150000,
+			"mana": 150000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 85
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 45
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 1
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "Lion's Den",
+		"reward": {
+			"gold": 150000,
+			"mana": 150000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 32
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 81
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "Big Cat Hunter",
+		"reward": {
+			"gold": 150000,
+			"mana": 150000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 38
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 97
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "Black Oasis",
+		"reward": {
+			"gold": 150000,
+			"mana": 150000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 45
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 80
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 2
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "Mysterious Statues",
+		"reward": {
+			"gold": 150000,
+			"mana": 150000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 51
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		},
+		"unlocks": [
+			"jade lion"
+		]
+	},
+	{
+		"name": "Medic",
+		"reward": {
+			"gold": 150000,
+			"mana": 150000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 114
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 21
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "News From Home",
+		"cost": {
+			"resources": {
+				"honor": 450
+			}			
+		}
+	},
+	{
+		"name": "A Daring Resue",
+		"reward": {
+			"gold": 150000,
+			"mana": 150000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 89
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 46
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		},
+		"unlocks": [
+			"medic"
+		]
+	},
+	{
+		"name": "Patching Up",
+		"reward": {
+			"gold": 150000,
+			"mana": 150000,
+			"diamonds": 100
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 2,
+					"quantity": 105
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 50
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 0
+				},
+				"commander": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "Clear The Way",
+		"reward": {
+			"gold": 150000,
+			"mana": 150000
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 3,
+					"quantity": 50
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 65
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 2
+				},
+				"medic": {
+					"level": 1,
+					"quantity": 1
+				},
+			}			
+		}
+	},
+	{
+		"name": "Sandstorm",
+		"cost": {
+			"resources": {
+				"gold": 3800000
+			}			
+		}
+	},
+	{
+		"name": "Boom! Boom! Boom!",
+		"reward": {
+			"gold": 200000,
+			"mana": 200000
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 3,
+					"quantity": 0
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 65
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 2
+				},
+				"medic": {
+					"level": 1,
+					"quantity": 2
+				},
+				"oni troll": {
+					"level": 1,
+					"quantity": 10
+				},
+			}			
+		}
+	},
+	{
+		"name": "All Uphill",
+		"reward": {
+			"gold": 200000,
+			"mana": 200000
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 3,
+					"quantity": 0
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 75
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 2
+				},
+				"medic": {
+					"level": 1,
+					"quantity": 2
+				},
+				"oni troll": {
+					"level": 1,
+					"quantity": 10
+				},
+			}			
+		}
+	},
+	{
+		"name": "Boom And Bust",
+		"reward": {
+			"gold": 200000,
+			"mana": 200000
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 3,
+					"quantity": 0
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 75
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 2
+				},
+				"medic": {
+					"level": 1,
+					"quantity": 2
+				},
+				"oni troll": {
+					"level": 1,
+					"quantity": 10
+				},
+			}			
+		}
+	},
+	{
+		"name": "Cherry Blossom Hill",
+		"reward": {
+			"gold": 200000,
+			"mana": 200000
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 3,
+					"quantity": 50
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 75
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 2
+				},
+				"medic": {
+					"level": 1,
+					"quantity": 2
+				},
+				"oni troll": {
+					"level": 1,
+					"quantity": 10
+				},
+			}			
+		}
+	},
+	{
+		"name": "Power Of Threes",
+		"reward": {
+			"gold": 200000,
+			"mana": 200000
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 3,
+					"quantity": 60
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 75
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 2
+				},
+				"medic": {
+					"level": 1,
+					"quantity": 0
+				},
+				"oni troll": {
+					"level": 1,
+					"quantity": 2
+				},
+			}			
+		}
+	},
+	{
+		"name": "Temple Challenge",
+		"reward": {
+			"gold": 200000,
+			"mana": 200000
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 3,
+					"quantity": 50
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 75
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 4
+				},
+				"medic": {
+					"level": 1,
+					"quantity": 0
+				},
+				"oni troll": {
+					"level": 1,
+					"quantity": 10
+				},
+			}			
+		},
+		"unlocks": [
+			"mana master"
+		]
+	},
+	{
+		"name": "Afraid Of The Dark",
+		"cost": {
+			"resources": {
+				"honor": 700			
+		}
+	},
+	{
+		"name": "Shadow	Stronghold",
+		"reward": {
+			"gold": 300000,
+			"mana": 300000,
+			"diamonds": 250
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 3,
+					"quantity": 0
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 62
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 5
+				},
+				"medic": {
+					"level": 1,
+					"quantity": 0
+				},
+				"oni troll": {
+					"level": 1,
+					"quantity": 0
+				},
+				"mana master": {
+					"level": 1,
+					"quantity": 4
+				},
+			}			
+		}
+	},
+	{
+		"name": "Broken City",
+		"reward": {
+			"gold": 300000,
+			"mana": 300000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 3,
+					"quantity": 45
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 30
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 4
+				},
+				"medic": {
+					"level": 1,
+					"quantity": 0
+				},
+				"oni troll": {
+					"level": 1,
+					"quantity": 0
+				},
+				"mana master": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "Flying Threat",
+		"reward": {
+			"gold": 300000,
+			"mana": 300000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 3,
+					"quantity": 5
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 30
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 4
+				},
+				"medic": {
+					"level": 1,
+					"quantity": 0
+				},
+				"oni troll": {
+					"level": 1,
+					"quantity": 1
+				},
+				"mana master": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		}
+	},
+	{
+		"name": "Dragon Altar",
+		"reward": {
+			"gold": 300000,
+			"mana": 300000,
+		},
+		"cost": {
+			"troops": {
+				"samurai": {
+					"level": 3,
+					"quantity": 30
+				},
+				"archer": {
+					"level": 2,
+					"quantity": 60
+				},
+				"ninja": {
+					"level": 2,
+					"quantity": 0
+				},
+				"ram": {
+					"level": 1,
+					"quantity": 5
+				},
+				"medic": {
+					"level": 1,
+					"quantity": 0
+				},
+				"oni troll": {
+					"level": 1,
+					"quantity": 1
+				},
+				"mana master": {
+					"level": 1,
+					"quantity": 0
+				},
+			}			
+		},
+		"unlocks": [
+			"dragon"
+		]
+	}
+]

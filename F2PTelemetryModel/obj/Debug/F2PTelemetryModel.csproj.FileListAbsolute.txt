@@ -4,3 +4,9 @@ C:\Users\coAdjoint\documents\visual studio 2015\Projects\F2PTelemetryModel\F2PTe
 C:\Users\coAdjoint\documents\visual studio 2015\Projects\F2PTelemetryModel\F2PTelemetryModel\obj\Debug\F2PTelemetryModel.csprojResolveAssemblyReference.cache
 C:\Users\coAdjoint\documents\visual studio 2015\Projects\F2PTelemetryModel\F2PTelemetryModel\obj\Debug\F2PTelemetryModel.exe
 C:\Users\coAdjoint\documents\visual studio 2015\Projects\F2PTelemetryModel\F2PTelemetryModel\obj\Debug\F2PTelemetryModel.pdb
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\F2PTelemetryModel\F2PTelemetryModel\bin\Debug\F2PTelemetryModel.exe.config
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\F2PTelemetryModel\F2PTelemetryModel\bin\Debug\F2PTelemetryModel.exe
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\F2PTelemetryModel\F2PTelemetryModel\bin\Debug\F2PTelemetryModel.pdb
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\F2PTelemetryModel\F2PTelemetryModel\obj\Debug\F2PTelemetryModel.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\F2PTelemetryModel\F2PTelemetryModel\obj\Debug\F2PTelemetryModel.exe
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\F2PTelemetryModel\F2PTelemetryModel\obj\Debug\F2PTelemetryModel.pdb

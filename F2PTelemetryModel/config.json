@@ -1,11 +1,28 @@
 ﻿{
   "upgradeCurrencies": {
+    "carpenter": "diamonds",
     "castle": "gold",
     "barracks": "mana",
     "bank": "mana",
     "market": "mana",
     "manaWell": "gold",
     "manaStorage": "gold"
+  },
+  "troopMissionAvailable": {
+    "samurai": 0,
+    "ninja": "Ninja Stronghold",
+    "ram": "One Smoking Barrel",
+    "commander": "Free The Commanders",
+    "archer": "Tree Of Knowledge",
+    "mongol": "Tough Love",
+    "oni Troll": "Prison Riot",
+    "healer": "A Daring Rescue",
+    "mana Master": "Temple Challenge",
+    "dragon": "Dragon Altar"
+  },
+  "buildingMissionAvailable": {
+    "archer tower": 1,
+
   },
   "maxQuantityPerCastleLevel": {
     "barracks": {
@@ -31,6 +48,18 @@
       "8": 3,
       "9": 4,
       "10": 4
+    },
+    "carpenter": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1
     },
     "manaStorage": {
       "1": 1,
@@ -117,394 +146,411 @@
       "resourceStorage": 3600,
       "cost": 20800000,
       "upgradeDuration": "14.00:00:00"
-    },
-    "barracksStats": {
-      "1": {
-        "cost": 700,
-        "minCastleLevel": 1,
-        "upgradeDuration": "0.00:01:00"
-      },
-      "2": {
-        "cost": 4000,
-        "minCastleLevel": 1,
-        "upgradeDuration": "0.00:15:00"
-      },
-      "3": {
-        "cost": 9000,
-        "minCastleLevel": 1,
-        "upgradeDuration": "0.02:00:00"
-      },
-      "4": {
-        "cost": 20000,
-        "minCastleLevel": 2,
-        "upgradeDuration": "0.04:00:00"
-      },
-      "5": {
-        "cost": 36000,
-        "minCastleLevel": 3,
-        "upgradeDuration": "0.10:00:00"
-      },
-      "6": {
-        "cost": 290000,
-        "minCastleLevel": 4,
-        "upgradeDuration": "0.16:00:00"
-      },
-      "7": {
-        "cost": 860000,
-        "minCastleLevel": 5,
-        "upgradeDuration": "1.00:00:00"
-      },
-      "8": {
-        "cost": 2500000,
-        "minCastleLevel": 6,
-        "upgradeDuration": "2.00:00:00"
-      },
-      "9": {
-        "cost": 5400000,
-        "minCastleLevel": 7,
-        "upgradeDuration": "4.00:00:00"
-      },
-      "10": {
-        "cost": 7200000,
-        "minCastleLevel": 8,
-        "upgradeDuration": "6.00:00:00"
-      }
-    },
-    "bankStats": {
-      "1": {
-        "cost": 1000,
-        "resourceStorage": 5400,
-        "minCastleLevel": 1,
-        "upgradeDuration": "0.00:15:00"
-      },
-      "2": {
-        "cost": 1000,
-        "resourceStorage": 10800,
-        "minCastleLevel": 1,
-        "upgradeDuration": "0.00:30:00"
-      },
-      "3": {
-        "cost": 5000,
-        "resourceStorage": 21600,
-        "minCastleLevel": 2,
-        "upgradeDuration": "0.01:00:00"
-      },
-      "4": {
-        "cost": 10000,
-        "resourceStorage": 43200,
-        "minCastleLevel": 3,
-        "upgradeDuration": "0.02:00:00"
-      },
-      "5": {
-        "cost": 22000,
-        "resourceStorage": 90000,
-        "minCastleLevel": 3,
-        "upgradeDuration": "0.03:00:00"
-      },
-      "6": {
-        "cost": 43000,
-        "resourceStorage": 180000,
-        "minCastleLevel": 3,
-        "upgradeDuration": "0.04:00:00"
-      },
-      "7": {
-        "cost": 90000,
-        "resourceStorage": 360000,
-        "minCastleLevel": 4,
-        "upgradeDuration": "0.06:00:00"
-      },
-      "8": {
-        "cost": 180000,
-        "resourceStorage": 900000,
-        "minCastleLevel": 4,
-        "upgradeDuration": "0.12:00:00"
-      },
-      "9": {
-        "cost": 360000,
-        "resourceStorage": 1800000,
-        "minCastleLevel": 5,
-        "upgradeDuration": "1.00:00:00"
-      },
-      "10": {
-        "cost": 900000,
-        "resourceStorage": 3600000,
-        "minCastleLevel": 6,
-        "upgradeDuration": "3.00:00:00"
-      },
-      "11": {
-        "cost": 1800000,
-        "resourceStorage": 7200000,
-        "minCastleLevel": 7,
-        "upgradeDuration": "5.00:00:00"
-      },
-      "12": {
-        "cost": 4600000,
-        "resourceStorage": 10800000,
-        "minCastleLevel": 10,
-        "upgradeDuration": "7.00:00:00"
-      }
-    },
-    "manaStorageStats": {
-      "1": {
-        "cost": 1000,
-        "resourceStorage": 5400,
-        "minCastleLevel": 1,
-        "upgradeDuration": "0.00:15:00"
-      },
-      "2": {
-        "cost": 1000,
-        "resourceStorage": 10800,
-        "minCastleLevel": 1,
-        "upgradeDuration": "0.00:30:00"
-      },
-      "3": {
-        "cost": 5000,
-        "resourceStorage": 21600,
-        "minCastleLevel": 2,
-        "upgradeDuration": "0.01:00:00"
-      },
-      "4": {
-        "cost": 10000,
-        "resourceStorage": 43200,
-        "minCastleLevel": 3,
-        "upgradeDuration": "0.02:00:00"
-      },
-      "5": {
-        "cost": 22000,
-        "resourceStorage": 90000,
-        "minCastleLevel": 3,
-        "upgradeDuration": "0.03:00:00"
-      },
-      "6": {
-        "cost": 43000,
-        "resourceStorage": 180000,
-        "minCastleLevel": 3,
-        "upgradeDuration": "0.04:00:00"
-      },
-      "7": {
-        "cost": 90000,
-        "resourceStorage": 360000,
-        "minCastleLevel": 4,
-        "upgradeDuration": "0.06:00:00"
-      },
-      "8": {
-        "cost": 180000,
-        "resourceStorage": 900000,
-        "minCastleLevel": 4,
-        "upgradeDuration": "0.12:00:00"
-      },
-      "9": {
-        "cost": 360000,
-        "resourceStorage": 1800000,
-        "minCastleLevel": 5,
-        "upgradeDuration": "1.00:00:00"
-      },
-      "10": {
-        "cost": 900000,
-        "resourceStorage": 3600000,
-        "minCastleLevel": 5,
-        "upgradeDuration": "3.00:00:00"
-      },
-      "11": {
-        "cost": 1800000,
-        "resourceStorage": 7200000,
-        "minCastleLevel": 7,
-        "upgradeDuration": "5.00:00:00"
-      },
-      "12": {
-        "cost": 4600000,
-        "resourceStorage": 10800000,
-        "minCastleLevel": 10,
-        "upgradeDuration": "7.00:00:00"
-      }
-    },
-    "manaWellStats": {
-      "1": {
-        "cost": 500,
-        "resourceStorage": 1800,
-        "minCastleLevel": 1,
-        "upgradeDuration": "0.00:01:00"
-      },
-      "2": {
-        "cost": 1000,
-        "resourceStorage": 3600,
-        "minCastleLevel": 1,
-        "upgradeDuration": "0.00:05:00"
-      },
-      "3": {
-        "cost": 2000,
-        "resourceStorage": 5400,
-        "minCastleLevel": 2,
-        "upgradeDuration": "0.00:15:00"
-      },
-      "4": {
-        "cost": 4000,
-        "resourceStorage": 9000,
-        "minCastleLevel": 2,
-        "upgradeDuration": "0.01:00:00"
-      },
-      "5": {
-        "cost": 9000,
-        "resourceStorage": 36000,
-        "minCastleLevel": 3,
-        "upgradeDuration": "0.04:00:00"
-      },
-      "6": {
-        "cost": 20000,
-        "resourceStorage": 72000,
-        "minCastleLevel": 3,
-        "upgradeDuration": "0.12:00:00"
-      },
-      "7": {
-        "cost": 72000,
-        "resourceStorage": 108000,
-        "minCastleLevel": 4,
-        "upgradeDuration": "1.00:00:00"
-      },
-      "8": {
-        "cost": 100000,
-        "resourceStorage": 180000,
-        "minCastleLevel": 4,
-        "upgradeDuration": "2.00:00:00"
-      },
-      "9": {
-        "cost": 140000,
-        "resourceStorage": 270000,
-        "minCastleLevel": 5,
-        "upgradeDuration": "3.00:00:00"
-      },
-      "10": {
-        "cost": 360000,
-        "resourceStorage": 360000,
-        "minCastleLevel": 5,
-        "upgradeDuration": "4.00:00:00"
-      },
-      "11": {
-        "cost": 720000,
-        "resourceStorage": 540000,
-        "minCastleLevel": 7,
-        "upgradeDuration": "5.00:00:00"
-      },
-      "12": {
-        "cost": 1270000,
-        "resourceStorage": 720000,
-        "minCastleLevel": 10,
-        "upgradeDuration": "7.00:00:00"
-      }
-    },
-    "marketStats": {
-      "1": {
-        "cost": 500,
-        "resourceStorage": 1800,
-        "minCastleLevel": 1,
-        "upgradeDuration": "0.00:01:00"
-      },
-      "2": {
-        "cost": 1000,
-        "resourceStorage": 3600,
-        "minCastleLevel": 1,
-        "upgradeDuration": "0.00:05:00"
-      },
-      "3": {
-        "cost": 2000,
-        "resourceStorage": 5400,
-        "minCastleLevel": 2,
-        "upgradeDuration": "0.00:15:00"
-      },
-      "4": {
-        "cost": 4000,
-        "resourceStorage": 9000,
-        "minCastleLevel": 2,
-        "upgradeDuration": "0.01:00:00"
-      },
-      "5": {
-        "cost": 9000,
-        "resourceStorage": 36000,
-        "minCastleLevel": 3,
-        "upgradeDuration": "0.04:00:00"
-      },
-      "6": {
-        "cost": 20000,
-        "resourceStorage": 72000,
-        "minCastleLevel": 3,
-        "upgradeDuration": "0.12:00:00"
-      },
-      "7": {
-        "cost": 72000,
-        "resourceStorage": 108000,
-        "minCastleLevel": 4,
-        "upgradeDuration": "1.00:00:00"
-      },
-      "8": {
-        "cost": 100000,
-        "resourceStorage": 180000,
-        "minCastleLevel": 4,
-        "upgradeDuration": "2.00:00:00"
-      },
-      "9": {
-        "cost": 140000,
-        "resourceStorage": 270000,
-        "minCastleLevel": 5,
-        "upgradeDuration": "3.00:00:00"
-      },
-      "10": {
-        "cost": 360000,
-        "resourceStorage": 360000,
-        "minCastleLevel": 5,
-        "upgradeDuration": "4.00:00:00"
-      },
-      "11": {
-        "cost": 720000,
-        "resourceStorage": 540000,
-        "minCastleLevel": 7,
-        "upgradeDuration": "5.00:00:00"
-      },
-      "12": {
-        "cost": 1270000,
-        "resourceStorage": 720000,
-        "minCastleLevel": 10,
-        "upgradeDuration": "7.00:00:00"
-      }
-    },
-    "barracksQueueLength": {
-      "1": 20,
-      "2": 25,
-      "3": 30,
-      "4": 35,
-      "5": 40,
-      "6": 45,
-      "7": 50,
-      "8": 55,
-      "9": 60,
-      "10": 65
-    },
-    "manaWellProductionPerHour": {
-      "1": 720,
-      "2": 1440,
-      "3": 2160,
-      "4": 2880,
-      "5": 3600,
-      "6": 4680,
-      "7": 5760,
-      "8": 6840,
-      "9": 7920,
-      "10": 9000,
-      "11": 10800,
-      "12": 12600
-    },
-    "marketProductionPerHour": {
-      "1": 720,
-      "2": 1440,
-      "3": 2160,
-      "4": 2880,
-      "5": 3600,
-      "6": 4680,
-      "7": 5760,
-      "8": 6840,
-      "9": 7920,
-      "10": 9000,
-      "11": 10800,
-      "12":  12600
     }
-  }
+  },
+  "barracksStats": {
+    "1": {
+      "cost": 700,
+      "minCastleLevel": 1,
+      "upgradeDuration": "0.00:01:00"
+    },
+    "2": {
+      "cost": 4000,
+      "minCastleLevel": 1,
+      "upgradeDuration": "0.00:15:00"
+    },
+    "3": {
+      "cost": 9000,
+      "minCastleLevel": 1,
+      "upgradeDuration": "0.02:00:00"
+    },
+    "4": {
+      "cost": 20000,
+      "minCastleLevel": 2,
+      "upgradeDuration": "0.04:00:00"
+    },
+    "5": {
+      "cost": 36000,
+      "minCastleLevel": 3,
+      "upgradeDuration": "0.10:00:00"
+    },
+    "6": {
+      "cost": 290000,
+      "minCastleLevel": 4,
+      "upgradeDuration": "0.16:00:00"
+    },
+    "7": {
+      "cost": 860000,
+      "minCastleLevel": 5,
+      "upgradeDuration": "1.00:00:00"
+    },
+    "8": {
+      "cost": 2500000,
+      "minCastleLevel": 6,
+      "upgradeDuration": "2.00:00:00"
+    },
+    "9": {
+      "cost": 5400000,
+      "minCastleLevel": 7,
+      "upgradeDuration": "4.00:00:00"
+    },
+    "10": {
+      "cost": 7200000,
+      "minCastleLevel": 8,
+      "upgradeDuration": "6.00:00:00"
+    }
+  },
+  "bankStats": {
+    "1": {
+      "cost": 1000,
+      "resourceStorage": 5400,
+      "minCastleLevel": 1,
+      "upgradeDuration": "0.00:15:00"
+    },
+    "2": {
+      "cost": 1000,
+      "resourceStorage": 10800,
+      "minCastleLevel": 1,
+      "upgradeDuration": "0.00:30:00"
+    },
+    "3": {
+      "cost": 5000,
+      "resourceStorage": 21600,
+      "minCastleLevel": 2,
+      "upgradeDuration": "0.01:00:00"
+    },
+    "4": {
+      "cost": 10000,
+      "resourceStorage": 43200,
+      "minCastleLevel": 3,
+      "upgradeDuration": "0.02:00:00"
+    },
+    "5": {
+      "cost": 22000,
+      "resourceStorage": 90000,
+      "minCastleLevel": 3,
+      "upgradeDuration": "0.03:00:00"
+    },
+    "6": {
+      "cost": 43000,
+      "resourceStorage": 180000,
+      "minCastleLevel": 3,
+      "upgradeDuration": "0.04:00:00"
+    },
+    "7": {
+      "cost": 90000,
+      "resourceStorage": 360000,
+      "minCastleLevel": 4,
+      "upgradeDuration": "0.06:00:00"
+    },
+    "8": {
+      "cost": 180000,
+      "resourceStorage": 900000,
+      "minCastleLevel": 4,
+      "upgradeDuration": "0.12:00:00"
+    },
+    "9": {
+      "cost": 360000,
+      "resourceStorage": 1800000,
+      "minCastleLevel": 5,
+      "upgradeDuration": "1.00:00:00"
+    },
+    "10": {
+      "cost": 900000,
+      "resourceStorage": 3600000,
+      "minCastleLevel": 6,
+      "upgradeDuration": "3.00:00:00"
+    },
+    "11": {
+      "cost": 1800000,
+      "resourceStorage": 7200000,
+      "minCastleLevel": 7,
+      "upgradeDuration": "5.00:00:00"
+    },
+    "12": {
+      "cost": 4600000,
+      "resourceStorage": 10800000,
+      "minCastleLevel": 10,
+      "upgradeDuration": "7.00:00:00"
+    }
+  },
+  "carpenterStats": {
+    "1": {
+      "cost": 0
+    },
+    "2": {
+      "cost": 0
+    },
+    "3": {
+      "cost": 1500
+    },
+    "4": {
+      "cost": 2000
+    },
+    "5": {
+      "cost": 4000
+    }
+  },
+  "manaStorageStats": {
+    "1": {
+      "cost": 1000,
+      "resourceStorage": 5400,
+      "minCastleLevel": 1,
+      "upgradeDuration": "0.00:15:00"
+    },
+    "2": {
+      "cost": 1000,
+      "resourceStorage": 10800,
+      "minCastleLevel": 1,
+      "upgradeDuration": "0.00:30:00"
+    },
+    "3": {
+      "cost": 5000,
+      "resourceStorage": 21600,
+      "minCastleLevel": 2,
+      "upgradeDuration": "0.01:00:00"
+    },
+    "4": {
+      "cost": 10000,
+      "resourceStorage": 43200,
+      "minCastleLevel": 3,
+      "upgradeDuration": "0.02:00:00"
+    },
+    "5": {
+      "cost": 22000,
+      "resourceStorage": 90000,
+      "minCastleLevel": 3,
+      "upgradeDuration": "0.03:00:00"
+    },
+    "6": {
+      "cost": 43000,
+      "resourceStorage": 180000,
+      "minCastleLevel": 3,
+      "upgradeDuration": "0.04:00:00"
+    },
+    "7": {
+      "cost": 90000,
+      "resourceStorage": 360000,
+      "minCastleLevel": 4,
+      "upgradeDuration": "0.06:00:00"
+    },
+    "8": {
+      "cost": 180000,
+      "resourceStorage": 900000,
+      "minCastleLevel": 4,
+      "upgradeDuration": "0.12:00:00"
+    },
+    "9": {
+      "cost": 360000,
+      "resourceStorage": 1800000,
+      "minCastleLevel": 5,
+      "upgradeDuration": "1.00:00:00"
+    },
+    "10": {
+      "cost": 900000,
+      "resourceStorage": 3600000,
+      "minCastleLevel": 5,
+      "upgradeDuration": "3.00:00:00"
+    },
+    "11": {
+      "cost": 1800000,
+      "resourceStorage": 7200000,
+      "minCastleLevel": 7,
+      "upgradeDuration": "5.00:00:00"
+    },
+    "12": {
+      "cost": 4600000,
+      "resourceStorage": 10800000,
+      "minCastleLevel": 10,
+      "upgradeDuration": "7.00:00:00"
+    }
+  },
+  "manaWellStats": {
+    "1": {
+      "cost": 500,
+      "resourceStorage": 1800,
+      "minCastleLevel": 1,
+      "upgradeDuration": "0.00:01:00"
+    },
+    "2": {
+      "cost": 1000,
+      "resourceStorage": 3600,
+      "minCastleLevel": 1,
+      "upgradeDuration": "0.00:05:00"
+    },
+    "3": {
+      "cost": 2000,
+      "resourceStorage": 5400,
+      "minCastleLevel": 2,
+      "upgradeDuration": "0.00:15:00"
+    },
+    "4": {
+      "cost": 4000,
+      "resourceStorage": 9000,
+      "minCastleLevel": 2,
+      "upgradeDuration": "0.01:00:00"
+    },
+    "5": {
+      "cost": 9000,
+      "resourceStorage": 36000,
+      "minCastleLevel": 3,
+      "upgradeDuration": "0.04:00:00"
+    },
+    "6": {
+      "cost": 20000,
+      "resourceStorage": 72000,
+      "minCastleLevel": 3,
+      "upgradeDuration": "0.12:00:00"
+    },
+    "7": {
+      "cost": 72000,
+      "resourceStorage": 108000,
+      "minCastleLevel": 4,
+      "upgradeDuration": "1.00:00:00"
+    },
+    "8": {
+      "cost": 100000,
+      "resourceStorage": 180000,
+      "minCastleLevel": 4,
+      "upgradeDuration": "2.00:00:00"
+    },
+    "9": {
+      "cost": 140000,
+      "resourceStorage": 270000,
+      "minCastleLevel": 5,
+      "upgradeDuration": "3.00:00:00"
+    },
+    "10": {
+      "cost": 360000,
+      "resourceStorage": 360000,
+      "minCastleLevel": 5,
+      "upgradeDuration": "4.00:00:00"
+    },
+    "11": {
+      "cost": 720000,
+      "resourceStorage": 540000,
+      "minCastleLevel": 7,
+      "upgradeDuration": "5.00:00:00"
+    },
+    "12": {
+      "cost": 1270000,
+      "resourceStorage": 720000,
+      "minCastleLevel": 10,
+      "upgradeDuration": "7.00:00:00"
+    }
+  },
+  "marketStats": {
+    "1": {
+      "cost": 500,
+      "resourceStorage": 1800,
+      "minCastleLevel": 1,
+      "upgradeDuration": "0.00:01:00"
+    },
+    "2": {
+      "cost": 1000,
+      "resourceStorage": 3600,
+      "minCastleLevel": 1,
+      "upgradeDuration": "0.00:05:00"
+    },
+    "3": {
+      "cost": 2000,
+      "resourceStorage": 5400,
+      "minCastleLevel": 2,
+      "upgradeDuration": "0.00:15:00"
+    },
+    "4": {
+      "cost": 4000,
+      "resourceStorage": 9000,
+      "minCastleLevel": 2,
+      "upgradeDuration": "0.01:00:00"
+    },
+    "5": {
+      "cost": 9000,
+      "resourceStorage": 36000,
+      "minCastleLevel": 3,
+      "upgradeDuration": "0.04:00:00"
+    },
+    "6": {
+      "cost": 20000,
+      "resourceStorage": 72000,
+      "minCastleLevel": 3,
+      "upgradeDuration": "0.12:00:00"
+    },
+    "7": {
+      "cost": 72000,
+      "resourceStorage": 108000,
+      "minCastleLevel": 4,
+      "upgradeDuration": "1.00:00:00"
+    },
+    "8": {
+      "cost": 100000,
+      "resourceStorage": 180000,
+      "minCastleLevel": 4,
+      "upgradeDuration": "2.00:00:00"
+    },
+    "9": {
+      "cost": 140000,
+      "resourceStorage": 270000,
+      "minCastleLevel": 5,
+      "upgradeDuration": "3.00:00:00"
+    },
+    "10": {
+      "cost": 360000,
+      "resourceStorage": 360000,
+      "minCastleLevel": 5,
+      "upgradeDuration": "4.00:00:00"
+    },
+    "11": {
+      "cost": 720000,
+      "resourceStorage": 540000,
+      "minCastleLevel": 7,
+      "upgradeDuration": "5.00:00:00"
+    },
+    "12": {
+      "cost": 1270000,
+      "resourceStorage": 720000,
+      "minCastleLevel": 10,
+      "upgradeDuration": "7.00:00:00"
+    }
+  },
+  "barracksQueueLength": {
+    "1": 20,
+    "2": 25,
+    "3": 30,
+    "4": 35,
+    "5": 40,
+    "6": 45,
+    "7": 50,
+    "8": 55,
+    "9": 60,
+    "10": 65
+  },
+  "manaWellProductionPerHour": {
+    "1": 720,
+    "2": 1440,
+    "3": 2160,
+    "4": 2880,
+    "5": 3600,
+    "6": 4680,
+    "7": 5760,
+    "8": 6840,
+    "9": 7920,
+    "10": 9000,
+    "11": 10800,
+    "12": 12600
+  },
+  "marketProductionPerHour": {
+    "1": 720,
+    "2": 1440,
+    "3": 2160,
+    "4": 2880,
+    "5": 3600,
+    "6": 4680,
+    "7": 5760,
+    "8": 6840,
+    "9": 7920,
+    "10": 9000,
+    "11": 10800,
+    "12":  12600
+  }  
 }
