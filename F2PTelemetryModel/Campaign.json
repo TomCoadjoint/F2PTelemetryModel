@@ -3,7 +3,7 @@
 		"name": "Out For Justice",
 		"reward": {
 			"gold": 3600,
-			"mana": 3600,
+			"mana": 3600
 		},
 		"cost": {
 			"troops": {
@@ -15,7 +15,7 @@
 		"name": "Focus, Focus, Focus!",
 		"reward": {
 			"gold": 2500,
-			"mana": 2500,
+			"mana": 2500
 		},
 		"cost": {
 			"troops": {

@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace ToyModel
 {
-    class Program
+    class Mission
     {
-        static void Main(string[] args)
-        {
-
-        }
+        public int samuraiRequired { get; set; }
+        public int goldReward { get; set; }
     }
 }
