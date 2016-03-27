@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F2PTelemetryModel", "F2PTelemetryModel\F2PTelemetryModel.csproj", "{8E5CEBAB-B496-4634-8D89-8ED8AE3B01E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyModel", "ToyModel\ToyModel.csproj", "{CD66CB3B-FDB0-40FC-95A8-3BB3BA71F9C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,14 @@ Global
 		{8E5CEBAB-B496-4634-8D89-8ED8AE3B01E9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8E5CEBAB-B496-4634-8D89-8ED8AE3B01E9}.Release|x64.ActiveCfg = Release|x64
 		{8E5CEBAB-B496-4634-8D89-8ED8AE3B01E9}.Release|x64.Build.0 = Release|x64
+		{CD66CB3B-FDB0-40FC-95A8-3BB3BA71F9C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD66CB3B-FDB0-40FC-95A8-3BB3BA71F9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD66CB3B-FDB0-40FC-95A8-3BB3BA71F9C1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CD66CB3B-FDB0-40FC-95A8-3BB3BA71F9C1}.Debug|x64.Build.0 = Debug|Any CPU
+		{CD66CB3B-FDB0-40FC-95A8-3BB3BA71F9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD66CB3B-FDB0-40FC-95A8-3BB3BA71F9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD66CB3B-FDB0-40FC-95A8-3BB3BA71F9C1}.Release|x64.ActiveCfg = Release|Any CPU
+		{CD66CB3B-FDB0-40FC-95A8-3BB3BA71F9C1}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

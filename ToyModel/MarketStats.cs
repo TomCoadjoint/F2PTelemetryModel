@@ -8,7 +8,8 @@ namespace ToyModel
 {
     class MarketStats
     {
-        public static int costToBuild { get; set; } = 500; 
+        public static int costToBuild { get; set; } = 500;
+        public static int timeToBuild { get; set; } = 12;
 
         public static Dictionary<int, int> productionPerSecondPerLevel { get; set; } = new Dictionary<int, int>()
         {
@@ -19,7 +20,6 @@ namespace ToyModel
 
         public static Dictionary<int, int> timeToUpgrade { get; set; } = new Dictionary<int, int>()
         {
-            { 1, 12 },
             { 2, 60 },
             { 3, 180 }
         };

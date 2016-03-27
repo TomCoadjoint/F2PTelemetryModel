@@ -9,6 +9,7 @@ namespace ToyModel
     class PracticeYardStats
     {
         public static int costToBuild { get; set; } = 900;
+        public static int timeToBuild { get; set; } = 60;
 
         public static Dictionary<int, int> maximumCapacity { get; set; } = new Dictionary<int, int>()
         {
@@ -19,7 +20,6 @@ namespace ToyModel
 
         public static Dictionary<int, int> timeToUpgrade { get; set; } = new Dictionary<int, int>()
         {
-            { 1, 60 },
             { 2, 720 },
             { 3, 2160 }
         };
